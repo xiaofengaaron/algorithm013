@@ -2,7 +2,7 @@
 
 1. 知识点
 
-https://github.com/xiaofengaaron/algorithm013/blob/master/Week_02/Untitled%20Diagram.png
+![image](https://github.com/xiaofengaaron/algorithm013/blob/master/Week_02/Untitled%20Diagram.png)
 
 
 
