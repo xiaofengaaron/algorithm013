@@ -2,7 +2,7 @@
 
 1. 知识点
 
-![Untitled Diagram](C:\Users\aaron\Downloads\Untitled Diagram.png)
+![image](https://github.com/xiaofengaaron/algorithm013/blob/master/Week_02/Untitled%20Diagram.png)
 
 
 
