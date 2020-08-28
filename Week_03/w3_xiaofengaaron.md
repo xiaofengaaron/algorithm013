@@ -57,7 +57,7 @@
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         
-        # 时间复杂度 O(N), 空间复杂度 O(logN)
+        # 时间复杂度 O(N), 空间复杂度 O(N)
         
         # 如果root就是要找的节点，则返回root，向上传递；如果为空，返回None，无需下面继续操作
         if root in (None, p, q): return root
@@ -81,6 +81,7 @@ class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
 
         # 时间复杂度 O(k*C_n^k)
+        # 空间复杂度 O(k)
         # 回溯的核心是，明确当前层需要做什么事情。
         # 此问题是每层 有一些 choices 需要尝试； 尝试完一个choice后传递给下一层，然再试下一个choice
         def bp(start, output):
